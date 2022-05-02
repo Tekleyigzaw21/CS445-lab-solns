@@ -1,16 +1,16 @@
 const fibonacci = (function () {
-  const memoized = new Map();
+  const mem = new Map();
   function fib(n) {
     let value;
-    if (memoized.has(n)) {
-      value = memoized.get(n);
+    if (mem.has(n)) {
+      value = mem.get(n);
     } else {
       if (n <= 1) {
         value = n;
       } else {
         value = fib(n - 1) + fib(n - 2);
       }
-      memoized.set(n, value);
+      mem.set(n, value);
     }
     return value;
   }

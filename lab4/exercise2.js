@@ -12,10 +12,10 @@ class DecoratedUser {
   }
   logger() {
     console.log(
-      "Decorated User: " + this.name + ", " + this.street + ", " + this.city
+      "Decorated User:  " + this.name + ", " + this.street + ", " + this.city
     );
   }
 }
-const user = new User("Kelly");
+const user = new User("Ana");
 const decorated = new DecoratedUser(user, "Broadway", "New York");
 decorated.logger();

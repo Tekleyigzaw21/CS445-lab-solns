@@ -30,13 +30,13 @@ class Strategy {
 const strategy = new Strategy();
 
 strategy.setStrategy(new Info());
-strategy.logging("info....");
+strategy.logging("info.......");
 
 strategy.setStrategy(new Warn());
-strategy.logging("warn....");
+strategy.logging("warn.......");
 
 strategy.setStrategy(new Error());
-strategy.logging("error....");
+strategy.logging("error......");
 
 strategy.setStrategy(new Table());
 strategy.logging(["table", "table"]);
