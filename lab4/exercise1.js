@@ -23,12 +23,12 @@ class Factory {
   }
 }
 
-const bulbs = [];
+const bulb = [];
 const factory = new Factory();
 
-bulbs.push(factory.createBulb("regular"));
-bulbs.push(factory.createBulb("energy", "red"));
+bulb.push(factory.createBulb("regular"));
+bulb.push(factory.createBulb("energy", "red"));
 
 for (let i = 0, len = bulbs.length; i < len; i++) {
-  console.log(bulbs[i]);
+  console.log(bulb[i]);
 }
