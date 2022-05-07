@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swap Things</title>
+    <style>
+      div {
+        margin: 50px;
+        width: 75%;
+        background-color: aquamarine;
+      }
+      img {
+        width: 150px;
+        height: 150px;
+        margin: 55px;
+      }
+      button {
+        margin-left: 200px;
+        width: 100px;
+        background-color: gold;
+      }
+    </style>
+    <script>
+      window.onload = function () {
+        document.getElementById("swap").onclick = function () {
+          let Ethiopia = document.getElementById("Ethiopia");
+          let Lalibela = document.getElementById("Lalibela");
+          let temp = Ethiopia.src;
+          Ethiopia.src = Lalibela.src;
+          Lalibela.src = temp;
+        };
+      };
+    </script>
+  </head>
+  <body>
+    <div>
+      <img src="/lab6/flagEth.webp" alt="Ethiopia" id="Ethiopia" />
+      <img
+        src="/lab6/lalibla.jpg"
+        alt="Lalibela Rock-Hewn Church"
+        id="Lalibela"
+      />
+      <br /><br /><button id="swap">SwapPictures</button>
+    </div>
+  </body>
+</html>
