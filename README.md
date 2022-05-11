@@ -7,3 +7,6 @@
 5.
 6. [Lab 6](https://github.com/Tekleyigzaw21/CS445-lab-solns/tree/main/lab6)
 7. [Lab 7](https://github.com/Tekleyigzaw21/CS445-lab-solns/tree/main/lab7)
+8. [Lab 8](./lab8)
+   [1. exercise01 - isPrime using await](./lab8/exercise01.js)
+   [2. exercise02 - RemoveDuplicates from Array](./lab8/exercise02.js)
