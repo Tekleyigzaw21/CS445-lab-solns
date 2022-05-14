@@ -1,0 +1,32 @@
+body {
+  margin-left: 20%;
+
+  margin-right: 20%;
+}
+
+ol li {
+  list-style-type: none;
+  margin-left: 2em;
+  display: list-item;
+}
+
+ol img {
+  align-content: space-around;
+}
+
+p {
+  font-style: italic;
+}
+
+h5 {
+  text-decoration: underline;
+}
+
+.referesh {
+  position: middle;
+}
+.div1 {
+  display: flex;
+  column-gap: 30px;
+  margin: 30px;
+}

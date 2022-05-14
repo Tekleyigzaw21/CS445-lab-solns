@@ -17,7 +17,7 @@ async function isPrimeAsync(num) {
   }
 }
 console.log("start");
-isPrime(7)
+isPrimeAsync(7)
   .then((res) => console.log(res))
   .catch((err) => console.error(err));
 console.log("end");
