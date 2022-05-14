@@ -10,3 +10,4 @@
 8. Lab 8 -> Async await Solution
    1. [exercise01 - isPrimeAsync using await](./lab8/exercise01.js)
    2. [exercise02 - Remove Duplicates from Array](./lab8/exercise02.js)
+9. [Lab 9](https://github.com/Tekleyigzaw21/CS445-lab-solns/tree/main/lab9)
